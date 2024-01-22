@@ -1,0 +1,36 @@
+.header {
+  padding-block: 50px;
+}
+.header .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .content .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.header .content .left img {
+  width: 100px;
+  height: auto;
+}
+.header .content .middle nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.header .content .middle nav ul li a {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.header .content .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}

@@ -1,0 +1,24 @@
+.button {
+	padding: 16px 35px;
+
+	background: transparent;
+	outline: none;
+	border: none;
+
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+
+	&.bg {
+		color: #343045;
+
+		border-radius: 40px;
+		background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+	}
+
+	&.no_bg {
+		border-radius: 40px;
+		border: 2px solid #fff;
+	}
+}
